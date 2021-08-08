@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="rtl">
   <head>
     <title>Cezma تسجيل حساب  </title>
     <meta charset="utf-8" />
@@ -76,3 +76,162 @@
         
       </ul>
     </nav>
+    <header class="before-register">
+      <div class="header-top">
+        <div class="container">
+          <div class="row align-items-center h-100">
+            <div class="col-2">
+              <a href="">
+                <img
+                  src="FrontEnd/images/logo-light.png"
+                  alt="CEZMA logo"
+                  class="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col-10">
+              <div class="header-content">
+                <div
+                  class="
+                    top
+                    d-flex
+                    align-items-center
+                    justify-content-between
+                    pb-1
+                  "
+                >
+                  <ul
+                    class="
+                      list-unstyled
+                      m-0
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <li>
+                      <a href="index.html" class="line-hover "
+                        >الرئيسية</a
+                      >
+                    </li>
+                    <li><a href="shops.html" class="line-hover">المتاجر</a></li>
+                    <li><a href=".html" class="line-hover active">المفضلة</a></li>
+                    <li>
+                      <a href=".html" class="line-hover ">
+                        <span
+                          class="
+                            notification
+                            d-flex
+                            justify-content-center
+                            align-items-center
+                            
+                          "
+                          >5</span
+                        >
+                        الرسائل</a
+                      >
+                    </li>
+                    <li>
+                      <a href="/contactUs" class="line-hover">اتصل بنا</a>
+                    </li>
+                  </ul>
+                  <div
+                    class="
+                      dropdowns-container
+                      d-flex
+                      align-items-center
+                      justify-content-between
+                    "
+                  >
+                    <form id="my-select2" action="">
+                      <select name="options[212]" class="select2">
+                        <option
+                          value="egypt"
+                          selected
+                          data-src="./images/eg.png"
+                        >
+                          egypt
+                        </option>
+                        <option value="algeria" data-src="./images/al.png">
+                          algeria
+                        </option>
+                        <option value="morocco" data-src="./images/mo.png">
+                          morocco
+                        </option>
+                        <option value="tunisia" data-src="./images/tu.png">
+                          tunisia
+                        </option>
+                      </select>
+                    </form>
+                    <select class="form-control mx-2">
+                      <option>العربية </option>
+                      <option>Default select</option>
+                      <option>Default select</option>
+                      <option>Default select</option>
+                    </select>
+                  </div>
+                  <div
+                  class="
+                    text-center
+                    d-flex
+                    justify-content-between
+                    h-100
+                    auth
+                  "
+                >
+                <a href="/login" class="login  py-2 px-4 rounded">
+                  تسجيل دخول              </a>
+    
+                <a href="/register" class="signup bg-white py-2 px-4 rounded">
+                  حساب جديد               </a>
+                 
+    
+                </div>
+                </div>
+                <div class="bottom">
+                  <form class="search d-flex ">
+                    <input
+                      type="text"
+                      class="py-2"
+                      placeholder="عن ماذا تبحث ؟"
+                    />
+                    <button type="submit" class="app-btn">
+                      <i class="fas fa-search pt-2"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul
+                class="
+                  list-unstyled
+                  m-0
+                  d-flex
+                  align-items-center
+                  justify-content-between
+                  px-lg-2 px-0
+                "
+              >
+                <li><a href="">الموبايلات والأجهزة اللوحية</a></li>
+                <li><a href="">أجهزة كمبيوتر</a></li>
+                <li><a href="">التلفزيونات وأجهزة الترفيه</a></li>
+                <li><a href="">ألعاب الفيديو</a></li>
+                <li><a href="">مستلزمات المنزل</a></li>
+                <li><a href="">سيارات وقطع غيار</a></li>
+                <li><a href="">الموضة والجمال</a></li>
+                <li><a href="">وظائف</a></li>
+                <li><a href="">مستلزمات أطفال</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>

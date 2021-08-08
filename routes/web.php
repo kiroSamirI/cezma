@@ -255,5 +255,8 @@ Route::middleware(['auth:' . config('admin-auth.defaults.guard'), 'admin'])->gro
 
 
 Auth::routes();
+Route::get("/contactUs" , [App\Http\Controllers\PagesController::class , "contactUs"] );
+Route::get("/terms" , [App\Http\Controllers\PagesController::class , "terms"] );
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
